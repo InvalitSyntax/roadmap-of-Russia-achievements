@@ -5,11 +5,6 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
 
-navbar:
-  links:
-    - name: "Таймлайн"
-      url: "/timeline.html"
-
 # Разрешаем iframe и другие настройки безопасности
 security:
   allowed_iframe_sources:
