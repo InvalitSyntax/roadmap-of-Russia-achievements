@@ -22,7 +22,7 @@ title: Научные достижения России от XIX века до �
     top: 10px;
     left: 10px;
     z-index: 200;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0);
     padding: 5px 10px;
     border-radius: 5px;
   }
