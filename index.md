@@ -11,35 +11,36 @@ title: Научные достижения России от XIX века до �
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
   }
   
-  header {
-    background: #f8f9fa;
-    padding: 15px;
+  .header {
+    padding: 20px;
+    background: #f5f5f5;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    z-index: 100;
+    text-align: center;
   }
   
-  .timeline-container {
-    flex-grow: 1;
+  .timeline-wrapper {
+    flex: 1;
     position: relative;
-    min-height: 0; /* Важно для flex-разметки */
   }
   
-  iframe {
+  .timeline-iframe {
     width: 100%;
     height: 100%;
     border: none;
+    display: block;
   }
 </style>
 
-<header>
+<div class="header">
   <h1>{{ page.title }}</h1>
-  <p>{{ page.description }}</p>
-</header>
+</div>
 
-<div class="timeline-container">
-  <iframe 
+<div class="timeline-wrapper">
+  <iframe
+    class="timeline-iframe"
     src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vRXo6uv99PJn_HGrzgkmzx5jVKIlYYoUNyzR0RyVTXDvCJuW9nYlmhMnkTC5hLr3T-hztdsTKuYI5Yh&font=Default&lang=ru&initial_zoom=2&height=100%25"
     allowfullscreen>
   </iframe>
