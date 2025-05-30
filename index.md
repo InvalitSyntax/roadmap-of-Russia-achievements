@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Главная
+title: Научные достижения России от XIX века до СССР
 ---
 
 <style>
