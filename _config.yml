@@ -1,0 +1,12 @@
+theme: jekyll-theme-cayman
+
+title: Научные достижения России
+description: От XIX века до СССР
+
+plugins:
+  - jekyll-remote-theme
+
+navbar:
+  links:
+    - name: "Таймлайн"
+      url: "/timeline.html"
