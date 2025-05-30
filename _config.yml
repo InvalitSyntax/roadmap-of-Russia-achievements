@@ -1,13 +1,16 @@
 title: Научные достижения России
 description: От XIX века до СССР
-
-remote_theme: pages-themes/merlot@v0.2.0
 theme: jekyll-theme-merlot
 
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
 
 navbar:
   links:
     - name: "Таймлайн"
       url: "/timeline.html"
+
+# Разрешаем iframe и другие настройки безопасности
+security:
+  allowed_iframe_sources:
+    - cdn.knightlab.com
