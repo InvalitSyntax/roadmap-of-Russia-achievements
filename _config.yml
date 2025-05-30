@@ -1,6 +1,6 @@
 title: Научные достижения России
 description: От XIX века до СССР
-theme: jekyll-theme-merlot
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-remote-theme
